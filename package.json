@@ -1,0 +1,32 @@
+{
+  "name": "content-jogger",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/content-jogger.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-es2015-modules-umd"
+    ]
+  },
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninbryan/ContentJogger.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninbryan/ContentJogger/issues"
+  },
+  "homepage": "https://github.com/ninbryan/ContentJogger#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
